@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:paddingBottom="@dimen/activity_vertical_margin"
+              android:paddingLeft="@dimen/activity_horizontal_margin"
+              android:paddingRight="@dimen/activity_horizontal_margin"
+              android:paddingTop="@dimen/activity_vertical_margin">
+
+    <Button
+        android:id="@+id/choice_mode_multiple"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="openChoiceModeMultiple"
+        android:text="CHOICE_MODE_MULTIPLE"
+        />
+
+    <Button
+        android:id="@+id/choice_mode_multiple_modal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="openChoiceModeMultipleModal"
+        android:text="CHOICE_MODE_MULTIPLE_MODAL"
+        />
+
+    <Button
+        android:id="@+id/choice_mode_single"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="openChoiceModeSingle"
+        android:text="列表单选"
+        />
+</LinearLayout>
